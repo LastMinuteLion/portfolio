@@ -31,7 +31,7 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container transition-all duration-300 transform hover:scale-105 hover:shadow-[0px_4px_20px_rgba(255,255,255,0.3)] hover:bg-opacity-90">
-                        <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+                        <img src="assets/grid22.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
                         <div>
                             <p className="grid-headtext transition-all duration-300 group-hover:text-white group-hover:scale-105">Tech Stack</p>

@@ -170,6 +170,13 @@ body {
   );
 }
 
+.skill-badge-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 15px; /* Add spacing between grid items */
+  justify-items: start; /* Align items to the left */
+}
+
 @keyframes wave-animation {
   0% {
     transform: rotate(0deg);

@@ -11,11 +11,21 @@ export const navLinks = [
     },
     {
         id: 3,
+        name: 'Projects',
+        href: '#projects',
+    },
+    {
+        id: 4,
+        name: 'Skills',
+        href: '#skills',
+    },
+    {
+        id: 5,
         name: 'Work',
         href: '#work',
     },
     {
-        id: 4,
+        id: 6,
         name: 'Contact',
         href: '#contact',
     },
@@ -260,29 +270,50 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        name: 'Chandigarh Engineering College',
+        pos: 'Grad',
+        duration: '2021 - 2025',
+        title: "A recent Computer Science graduate with a robust foundation in backend development, proficient in modern technologies such as Node.js and JS. Adept at crafting scalable solutions .",
+        icon: '/assets/UNI.svg',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
+        name: 'CBSE',
+        pos: 'High School Student',
+        duration: '2018 - 2020',
+        title: "Acquired critical thinking and technical proficiency through complex projects and foundational programming skills. Developed teamwork and time management abilities by balancing academics with extracurricular activities.",
+        icon: '/assets/CBSE.svg',
         animation: 'clapping',
     },
     {
         id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
+        name: 'ICSE',
+        pos: 'Secondary School Student',
+        duration: '2011 - 2018',
+        title: "Built essential literacy and numeracy skills while fostering curiosity and a love for learning through interactive and hands-on activities. Developed social skills and creativity through collaborative play and imaginative projects.",
+        icon: '/assets/ICSE.png',
         animation: 'salute',
     },
 ];
+
+
+export const SkillInfo = [
+    {
+        title: "Frontend",
+        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind", "GSAP", "Material UI", "Bootstrap","Next"
+        ]
+    },
+    {
+        title: "Backend",
+        skills: [ "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL","Docker","Redis","Kafka"]
+    },
+    {
+        title: "Languages",
+        skills: ["C", "C++", "JavaScript", "TypeScript"]
+    },
+    {
+        title: "Tools",
+        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Vercel","AWS"]
+    }
+]
