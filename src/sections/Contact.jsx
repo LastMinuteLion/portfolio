@@ -76,10 +76,10 @@ const Contact = () => {
 
                 <div className="contact-container">
                     <h3 className="head-text">Let's Connect!</h3>
-                    <p className="text-lg text-white-600 mt-3">
-                        Let's revolutionize the programming paradigm.
-                        Your insights could spark a transformative shift in software development.
-                    </p>
+                    {/*<p className="text-lg text-white-600 mt-3">*/}
+                    {/*    Let's revolutionize the programming paradigm.*/}
+                    {/*    Your insights could spark a transformative shift in software development.*/}
+                    {/*</p>*/}
 
                     <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
                         <label className="space-y-3">
