@@ -29,7 +29,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center
                  py-5 mx-auto c-space">
                     <div className="flex items-center -space-x-1">
-                        <img src="../../public/H%20icons8.png" alt="logo" className="w-12 h-12"/>
+                        <img src="/assets/H.png" alt="logo" className="w-12 h-12"/>
                         <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
                             arsh V.
                         </a>
